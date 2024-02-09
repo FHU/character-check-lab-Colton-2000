@@ -4,7 +4,7 @@ def check_character(word, index):
    if check.isalpha() == True:
        return 'letter'
    elif check.isdigit() == True:
-       return 'number'
+       return 'digit'
    elif check.isspace() == True:
        return 'white space'
    else:
